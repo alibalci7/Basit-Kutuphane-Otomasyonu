@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FF9C4F3-1F4C-4C35-AAB8-23B03709ED0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KütüphaneOtomasyonu.WinFormUI</RootNamespace>
+    <AssemblyName>KütüphaneOtomasyonu.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapAlmaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapAlmaForm.Designer.cs">
+      <DependentUpon>KitapAlmaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapEkleGuncelleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEkleGuncelleForm.Designer.cs">
+      <DependentUpon>KitapEkleGuncelleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapForm.Designer.cs">
+      <DependentUpon>KitapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapOduncVermeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapOduncVermeForm.Designer.cs">
+      <DependentUpon>KitapOduncVermeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapSorgulamaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapSorgulamaForm.Designer.cs">
+      <DependentUpon>KitapSorgulamaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciEkleForm.Designer.cs">
+      <DependentUpon>KullaniciEkleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonellerEkleGuncelleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonellerEkleGuncelleForm.Designer.cs">
+      <DependentUpon>PersonellerEkleGuncelleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonellerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonellerForm.Designer.cs">
+      <DependentUpon>PersonellerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UyelerEkleGuncelleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyelerEkleGuncelleForm.Designer.cs">
+      <DependentUpon>UyelerEkleGuncelleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyelerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyelerForm.Designer.cs">
+      <DependentUpon>UyelerForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapAlmaForm.resx">
+      <DependentUpon>KitapAlmaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapEkleGuncelleForm.resx">
+      <DependentUpon>KitapEkleGuncelleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapForm.resx">
+      <DependentUpon>KitapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapOduncVermeForm.resx">
+      <DependentUpon>KitapOduncVermeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapSorgulamaForm.resx">
+      <DependentUpon>KitapSorgulamaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciEkleForm.resx">
+      <DependentUpon>KullaniciEkleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonellerEkleGuncelleForm.resx">
+      <DependentUpon>PersonellerEkleGuncelleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonellerForm.resx">
+      <DependentUpon>PersonellerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UyelerEkleGuncelleForm.resx">
+      <DependentUpon>UyelerEkleGuncelleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyelerForm.resx">
+      <DependentUpon>UyelerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KütüphaneOtomasyonuORM\KütüphaneOtomasyonuORM.csproj">
+      <Project>{f39cf03b-2020-4ef9-8ace-d27aebb7984d}</Project>
+      <Name>KütüphaneOtomasyonuORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

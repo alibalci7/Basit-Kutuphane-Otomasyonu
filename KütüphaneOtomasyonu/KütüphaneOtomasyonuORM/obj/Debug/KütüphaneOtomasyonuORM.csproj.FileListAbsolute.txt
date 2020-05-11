@@ -1,0 +1,6 @@
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\bin\Debug\KütüphaneOtomasyonuORM.dll
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\bin\Debug\KütüphaneOtomasyonuORM.pdb
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\obj\Debug\KütüphaneOtomasyonuORM.csprojAssemblyReference.cache
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\obj\Debug\KütüphaneOtomasyonuORM.csproj.CoreCompileInputs.cache
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\obj\Debug\KütüphaneOtomasyonuORM.dll
+C:\Users\aliba\source\repos\KütüphaneOtomasyonu\KütüphaneOtomasyonuORM\obj\Debug\KütüphaneOtomasyonuORM.pdb
